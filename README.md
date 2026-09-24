@@ -1,16 +1,55 @@
-# React + Vite
+# Dashboard Financeiro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto: um dashboard financeiro responsivo, desenvolvido com React e Vite, com foco em visualização de dados, organização de informações financeiras e experiência de usuário.
 
-Currently, two official plugins are available:
+## 🔗 Ver ao vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Link do site publicado aqui: **(https://athy-kamull.github.io/Dashboard-Financeiro/)**
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Visualização de saldo, entradas e saídas do mês
+* Cálculo automático do resumo financeiro
+* Indicadores de variação em relação ao mês anterior
+* Gráfico de gastos por categoria
+* Tabela de transações
+* Busca por descrição de transação
+* Filtro de transações por categoria
+* Estados de carregamento com skeleton
+* Estado de erro com opção de tentar novamente
+* Estado vazio para quando não houver resultados
+* Interface responsiva para diferentes tamanhos de tela
+* Navegação lateral com indicação da página ativa
+* Animações de entrada dos elementos
+* Componentização da interface
+* Formatação de valores em Real brasileiro
+* Interface com foco em acessibilidade
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* Vite
+* Recharts
+* Lucide React
+* CSS3
+* CSS Modules
+* HTML5
+
+## 📊 Estrutura
+
+O projeto foi organizado separando responsabilidades entre dados, lógica e interface:
+
+* `components/` — componentes visuais reutilizáveis
+* `data/` — dados utilizados pelo dashboard
+* `hooks/` — lógica reutilizável e gerenciamento dos dados
+* `utils/` — cálculos e funções de formatação
+* `App.jsx` — composição principal da aplicação
+
+## 📸 Screenshot
+
+Dashboard financeiro:
+
+<img width="1920" height="927" alt="dashboardfinanceiro" src="https://github.com/user-attachments/assets/e917d8d0-91db-47eb-af9e-f844ed299d50" />
+
+
