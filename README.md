@@ -50,6 +50,8 @@ O projeto foi organizado separando responsabilidades entre dados, lógica e inte
 
 Dashboard financeiro:
 
-<img width="1920" height="927" alt="dashboardfinanceiro" src="https://github.com/user-attachments/assets/e917d8d0-91db-47eb-af9e-f844ed299d50" />
+<img width="1920" height="928" alt="dashboardfinanceiro" src="https://github.com/user-attachments/assets/47d311b7-26a8-4bb1-8dbf-eeecd3e06119" />
+
+
 
 
