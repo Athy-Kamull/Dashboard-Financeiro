@@ -1,0 +1,56 @@
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--space-6) var(--space-6) var(--space-5);
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.subtitulo {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: var(--space-1);
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.botaoIcone {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.botaoIcone:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--brand-dim);
+  color: var(--brand);
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+}

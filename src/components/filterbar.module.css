@@ -1,0 +1,52 @@
+.barra {
+  display: flex;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.campoBusca {
+  position: relative;
+  flex: 1;
+}
+
+.iconeBusca {
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-faint);
+  pointer-events: none;
+}
+
+.campoBusca input {
+  width: 100%;
+  padding: var(--space-3) var(--space-3) var(--space-3) 38px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+}
+
+.campoBusca input::placeholder {
+  color: var(--text-faint);
+}
+
+.campoBusca input:focus {
+  outline: none;
+  border-color: var(--brand);
+}
+
+.barra select {
+  padding: var(--space-3) var(--space-4);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .barra {
+    flex-direction: column;
+  }
+}

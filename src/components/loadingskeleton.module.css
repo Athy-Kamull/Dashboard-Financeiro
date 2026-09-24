@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.bloco {
+  background: linear-gradient(
+    100deg,
+    var(--surface) 30%,
+    var(--surface-hover) 50%,
+    var(--surface) 70%
+  );
+  background-size: 200% 100%;
+  border-radius: var(--radius-lg);
+  animation: brilho 1.6s ease-in-out infinite;
+}
+
+.card {
+  height: 130px;
+}
+
+.grafico {
+  height: 260px;
+}
+
+.tabela {
+  height: 320px;
+}
+
+@keyframes brilho {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@media (max-width: 640px) {
+  .grade {
+    grid-template-columns: 1fr;
+  }
+}
