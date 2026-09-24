@@ -32,7 +32,7 @@ return (
         <h2 className={styles.titulo}></h2>
 
         <div className={styles.corpo}>
-            <div className={styles.graficoContain}>
+            <div className={styles.graficoContainer}>
                 <ResponsiveContainer width="100%" height={200}>
                     <PieChart>
                         <Pie

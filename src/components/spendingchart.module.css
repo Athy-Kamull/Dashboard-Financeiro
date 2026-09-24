@@ -26,7 +26,9 @@
 
 .graficoContainer {
   position: relative;
-  flex: 0 0 200px;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
 }
 
 .centroGrafico {
