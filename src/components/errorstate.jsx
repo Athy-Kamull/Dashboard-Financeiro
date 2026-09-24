@@ -1,5 +1,5 @@
 import { AlertTriangle } from 'lucide-react';
-import styles from './errorState.module.css';
+import styles from './errorstate.module.css';
 
 function ErrorState({ mensagem, aoTentarNovamente }) {
   return (
